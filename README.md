@@ -1,2 +1,2 @@
 # CloudLift
-Automates AWS Multi-Account and enforces naming conventions for an organization.
+Automates AWS Multi-Account CloudFormation Stack Deployments and enforces naming conventions of CloudFormation Stacks.
