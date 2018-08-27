@@ -19,10 +19,11 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name='ForkLyft',
     version='0.1.0',
-    description='Automates AWS Multi-Account and enforces naming ' \
+    description='Automates AWS Multi-Account and enforces naming '
                 'conventions for an organization.',
     url='https://github.com/DjangoFett/ForkLyft',
     author='Jake Myshrall',
+    author_email='jmyshrall@cvent.com',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: System Administrators',
@@ -31,8 +32,8 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
-    install_requires=[], 
-    entry_points={  
+    install_requires=[],
+    entry_points={
         'console_scripts': [
             'forklyft=forklyft.cli:main',
         ],
