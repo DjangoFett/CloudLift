@@ -17,26 +17,24 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 
 setup(
-    name='CloudLift',
+    name='ForkLyft',
     version='0.1.0',
     description='Automates AWS Multi-Account and enforces naming ' \
                 'conventions for an organization.',
-    url='https://github.com/DjangoFett/CloudLift',
+    url='https://github.com/DjangoFett/ForkLyft',
     author='Jake Myshrall',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: System Administrators',
         'Topic :: Other/Nonlisted Topic',
         'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
     ],
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     install_requires=[], 
     entry_points={  
         'console_scripts': [
-            'cloudlift=cloudlift.cli:main',
+            'forklyft=forklyft.cli:main',
         ],
     },
     # project_urls={  # Optional

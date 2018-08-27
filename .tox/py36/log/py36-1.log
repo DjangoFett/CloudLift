@@ -1,0 +1,31 @@
+actionid: py36
+msg: getenv
+cmdargs: ['/Users/jmyshrall/Projects/ForkLyft/.tox/py36/bin/python', '-m', 'pip', 'install', 'check-manifest', 'flake8', 'pytest']
+
+Collecting check-manifest
+  Using cached https://files.pythonhosted.org/packages/7a/6a/a723e3a5b2844f47a522013738fea914c9f68d1ef576c97238409bd42e84/check_manifest-0.37-py2.py3-none-any.whl
+Collecting flake8
+  Using cached https://files.pythonhosted.org/packages/b9/dc/14e9d94c770b8c4ef584e906c7583e74864786a58d47de101f2767d50c0b/flake8-3.5.0-py2.py3-none-any.whl
+Collecting pytest
+  Downloading https://files.pythonhosted.org/packages/70/0b/c577e79496be9698ca118afe0c1dafd4878decd73337b21570b0d28bacc2/pytest-3.7.3-py2.py3-none-any.whl (204kB)
+Collecting pycodestyle<2.4.0,>=2.0.0 (from flake8)
+  Using cached https://files.pythonhosted.org/packages/e4/81/78fe51eb4038d1388b7217dd63770b0f428370207125047312886c923b26/pycodestyle-2.3.1-py2.py3-none-any.whl
+Collecting pyflakes<1.7.0,>=1.5.0 (from flake8)
+  Using cached https://files.pythonhosted.org/packages/d7/40/733bcc64da3161ae4122c11e88269f276358ca29335468005cb0ee538665/pyflakes-1.6.0-py2.py3-none-any.whl
+Collecting mccabe<0.7.0,>=0.6.0 (from flake8)
+  Using cached https://files.pythonhosted.org/packages/87/89/479dc97e18549e21354893e4ee4ef36db1d237534982482c3681ee6e7b57/mccabe-0.6.1-py2.py3-none-any.whl
+Requirement already satisfied: setuptools in ./.tox/py36/lib/python3.6/site-packages (from pytest) (40.2.0)
+Collecting atomicwrites>=1.0 (from pytest)
+  Downloading https://files.pythonhosted.org/packages/0a/67/6cc7ebe2c939aa8e0de9cc3d2660b105d365330c2a8ffb066738fc83562f/atomicwrites-1.2.0-py2.py3-none-any.whl
+Collecting six>=1.10.0 (from pytest)
+  Using cached https://files.pythonhosted.org/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl
+Collecting py>=1.5.0 (from pytest)
+  Using cached https://files.pythonhosted.org/packages/f3/bd/83369ff2dee18f22f27d16b78dd651e8939825af5f8b0b83c38729069962/py-1.5.4-py2.py3-none-any.whl
+Collecting attrs>=17.4.0 (from pytest)
+  Using cached https://files.pythonhosted.org/packages/41/59/cedf87e91ed541be7957c501a92102f9cc6363c623a7666d69d51c78ac5b/attrs-18.1.0-py2.py3-none-any.whl
+Collecting more-itertools>=4.0.0 (from pytest)
+  Downloading https://files.pythonhosted.org/packages/79/b1/eace304ef66bd7d3d8b2f78cc374b73ca03bc53664d78151e9df3b3996cc/more_itertools-4.3.0-py3-none-any.whl (48kB)
+Collecting pluggy>=0.7 (from pytest)
+  Using cached https://files.pythonhosted.org/packages/f5/f1/5a93c118663896d83f7bcbfb7f657ce1d0c0d617e6b4a443a53abcc658ca/pluggy-0.7.1-py2.py3-none-any.whl
+Installing collected packages: check-manifest, pycodestyle, pyflakes, mccabe, flake8, atomicwrites, six, py, attrs, more-itertools, pluggy, pytest
+Successfully installed atomicwrites-1.2.0 attrs-18.1.0 check-manifest-0.37 flake8-3.5.0 mccabe-0.6.1 more-itertools-4.3.0 pluggy-0.7.1 py-1.5.4 pycodestyle-2.3.1 pyflakes-1.6.0 pytest-3.7.3 six-1.11.0
