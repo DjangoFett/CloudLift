@@ -8,9 +8,6 @@ script:
 deploy:
   provider: pypi
   user: DjangoFett
-  password: Cl0ud-Ins1ght\!
-deply:
-  password:
-    secure: ULMU2d47BFOSHwOIc6iloZCZv8sw1TyL4HoV8Ozsn605yIMV7i+GSL15dd8duirOH7m9vvfChNfnifXyBMqXNidVI2IJkPVB+SHkRtEwKpeKFiZgWce2fMQzdYOUd9NczWgoNVqkJeuL2AwzyrydfrOBmXCQD4Q4EGoqiMhlnWUAJ+u23cm/gZmxhIXSHzM7kOr0ECZOEws2byZPKnkhZF1UAjH5m007PwVYmldY+EHbjpA2mIgKdET5nIl8GsyLNdL3JUoNQyiRYGIZaVCdNbzUYti8ZQEH6wnklzLskRDnY9guRTc7SvfB0Q1daGW0ECxL0bgZNE/19VbcnDrP6IzVqG9JdxXDDXYQ4wFrzlwiQP2xmEEb3ophkl7/lugeYHhgiH/m6frJQIwnDYRiSFu7hPnrapJ/IdP9oIc2G8R0vsxU95SPUlx0PuIG5KWnl8W2q/RfZoj+jdbtwzux4AQWotTUK+mREIF6NJwBz5ImBi+Qi2tqp9fyF9+ir/OSnq4K+qLGlJsJiv+EUQSTay7usTb+dWlr7wtgUy3VSbj7/aHVH9vAOlk3R3kDkaGcQvoHk/M14QAnrjhnTQtZra5TN60ivsBhxAM1z3SmhrH7Mw2d425nj4jtujDEP7bVBhHfCQ0R4EgJ+NO2z42hGMT0obcBjbhH6nKgA6TDyRM=
+  password: Cl0ud-Ins1ght!
   on:
     branch: master
