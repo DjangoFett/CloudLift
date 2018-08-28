@@ -1,3 +1,4 @@
 .tox/
 ForkLyft.egg-info/
 tests/__pycache__/
+dist/
