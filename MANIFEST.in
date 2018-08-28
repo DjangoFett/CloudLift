@@ -9,3 +9,6 @@ recursive-include data *
 
 # Include the package
 recursive-include forklyft *
+
+# Include requirements
+include requirements.txt
