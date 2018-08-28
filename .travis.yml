@@ -5,9 +5,9 @@ install:
 - pip install tox-travis
 script:
 - tox
+
 deploy:
   provider: pypi
   user: DjangoFett
   password: Cl0ud-Ins1ght!
-  on:
-    branch: master
+
