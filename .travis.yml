@@ -1,9 +1,14 @@
 language: python
 python:
-  - "3.6"
-# command to install dependencies
+- '3.6'
 install:
-  - pip install tox-travis
-# command to run tests
+- pip install tox-travis
 script:
-  - tox
+- tox
+deploy:
+  provider: pypi
+  user: DjangoFett
+  password: Cl0ud-Ins1ght\!
+deply:
+  password:
+    secure: fVIxgp2UdJXzqJ7EeYF8qElJgy+m/Dvlw6Cq4CzscXoPmmby8hqLEQmlKccISYM3cFDx9GrmJYqrjTihXD+INTmFnVQiuajG5Auu8Pgr1zxhazsHp/EblK/7gYh7ywCXAuA/bO8eZq1pWRAfoxsTj7iN+iMNAZcDTOFqVanyAcx3DxdJqMauoGbjDu24d8XH4+9KXNmimSTTbWlvbi0pkO0ppU0iirqAGdYphzwhH3WO6vkBTF0PbWiMUKfMPGe6GKeNgyPo84ttZbRqhw7GkQtuscoqSlOcyvJSp/d6CCCcjtoTWlultUJQ2YZghULB0EV+FCyyVL1CiXaAe9yEK+DBCxh76rTqo8cGNUWvkcPlcYBx2BVGUE4tSzJtS21bVblBcIAW5Y3Xre9XTlv5wAz6T/V7xWKZ8IyF5TMfbAfXmVbcqo4PLEAtcunMdLG8jA7nzXAPGZFoxuyCHN9v0NmKHDdYyExcSuGYNd7EQhXOEkQTI3RPvfnAPT5QK7kKpl4tfskQzGTkOuN09p0H56KETz9cwXAut7m7b+O+3Qg9dELOfRi66+Wbh6PLuEam/ZuIAMwp6PvPXvyK8XhFLLoCY+mEPbPFLncQmwOUnJYCAxOCWIvYH1gnC9YaQX+99ktT7XEbz4eUkze1oebB7/B8v9h0Noau+q/NYbLHrqo=

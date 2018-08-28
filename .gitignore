@@ -1,0 +1,3 @@
+.tox/
+ForkLyft.egg-info/
+tests/__pycache__/
