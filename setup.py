@@ -18,7 +18,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='ForkLyft',
-    version='0.1.0',
+    version='0.1.1',
     description='Automates AWS Multi-Account and enforces naming '
                 'conventions for an organization.',
     url='https://github.com/DjangoFett/ForkLyft',
@@ -38,7 +38,7 @@ setup(
             'forklyft=forklyft.cli:main',
         ],
     },
-    # project_urls={  # Optional
+    # projvect_urls={  # Optional
     #     'Bug Reports': 'https://github.com/pypa/sampleproject/issues',
     #     'Funding': 'https://donate.pypi.org',
     #     'Say Thanks!': 'http://saythanks.io/to/example',
