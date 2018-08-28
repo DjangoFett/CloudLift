@@ -5,9 +5,8 @@ install:
 - pip install tox-travis
 script:
 - tox
-
 deploy:
   provider: pypi
   user: DjangoFett
-  password: Cl0ud-Ins1ght!
-
+  password:
+    secure: fx2DbpAJmWxsFWDZkGeW3c8vaD3wQirurTh1e9VfYwZ+W1Ht15HQeYDAfZb11hKn+v3KylAT0xm4TgRw8TCs5feZi2CLzO2o508cOD4/5zn1V9P01a0VsRYMVWJoYTIMSTzXcYedKpCqcFmYVODrukLNkr9WpP2OcOWueI6GXSumpyIwC1mA98cXjFbAuCs0Kt3N4CSmWut58gRwifTTNhhoGGXlmfeyac7yuFDAArymOWGruFo8D+nsBpVvrh1m6JPpULQ8i1IeJfdraNRajQFK3xW5UYV4kqET3fZ8X3MPa95ziYcaPIt7xOzF4H5OrHhzkuihO9bbdDH6NU3r6XOXRz+9xdTQAinCwdse7GgSRSktzFxAi6fuoNgQ22BKcwOfeVChJKhcvfa2VLbVPlJJxtGZ9+yYVmj6+GgEVVjO8W4Un/h29YrJl4GaaKrMnYb6G8BZCw+UC+NCJeRgLp7HYw09uLCoaJ9/hjRZPB6QeaJKgbf01r/0CquU79WzRb068L6/3uvonxJaTWuk604/W8cbkIzgFhaEKOJcztowQS+bUHiKF3pcaWNZUfNHUEe29dne3lZqvJrX/lZUXDsBaZpzFDnqLc/3ocesEtIj+a377qAvSnHd5yxv3gxFvEDvlQkZTfY/0UUFbwPRFLgIW1Tmf4j08RiZRGO/vl4=
